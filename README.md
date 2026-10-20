@@ -1,41 +1,24 @@
 # WTWR (What to Wear?)
 
-### Overview
+A React app that fetches the daily weather forecast for your location and recommends clothing to match. Users can sign up, add their own clothing items, and like items from others.
 
-- Project description
-- Project features
-- Images
-- Plans for improvement
-- Pages link
+- Live app: https://wtwr-frontend.vercel.app
+- Back-end code: https://github.com/dionshort/wtwr-backend
+- [Design on Figma](https://www.figma.com/design/F03bTb81Pw8IDPj5Y9rc5i/Sprint-10-%7C-WTWR?node-id=311-2970&node-type=frame&t=kusM8pNQr6u7XLBR-0)
 
-#### Project description
+> The back end is hosted on Render's free tier, so the first load after a period of inactivity can take up to a minute.
 
-The idea of the application is pretty simple - we make a call to an API, which then responds with the daily weather forecast. We collect the weather data, process it, and then based on the forecast, we recommend suitable clothing to the user.
+## Features
+- Weather-based clothing recommendations
+- Sign-up, login and protected routes using JWT
+- Add, delete and like clothing items
+- Client-side routing, with a Vercel rewrite so deep links work on refresh
 
-It was created using Javascript, CSS, and HTML5.
+## Tech stack
+React · Vite · JavaScript · HTML5 · CSS (BEM, Flexbox) · Vercel
 
-- [Link to the design on Figma](https://www.figma.com/design/F03bTb81Pw8IDPj5Y9rc5i/Sprint-10-%7C-WTWR?node-id=311-2970&node-type=frame&t=kusM8pNQr6u7XLBR-0)
-
-#### Project features
-
-- Javascript using React framework
-- Semantic HTML5
-- Flexbox
-- BEM methodology
-- Exporting images from Figma
-
-#### Images
-
+## Screenshot
 ![desktop-view](./src/assets/desktop-view.png)
 
-#### Plans for improvement
-
-- Add mobile view support
-
-#### Pages link
-
-https://dionshort.github.io/se_project_react/
-
-#### Backend code link
-
-https://github.com/dionshort/se_project_express
+## Plans for improvement
+- Mobile: the app works on mobile, but some modals and layouts aren't fully polished yet
